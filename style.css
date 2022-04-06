@@ -6,26 +6,76 @@ body {
     background-color: #1f2937;
 }
 
+
+/* NAVEGATION BAR */
 .top {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    font-size: 24px;
+    justify-content: space-between;
+    font-size: 30px;
     color: #f9faf8;
     align-items: center;
+    width: 80%;
+    margin: auto;
+    font-family: 'Righteous', cursive;
 }
 
 .links {
     display: flex;
     list-style: none;
     font-size: 18px;
+    gap: 30px;
 }
+/* NAVEGATION BAR */
+
+/* INFO CONTENT */
 
 .mid {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: left;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    padding: 40px;
 }
 
+.placeholder {
+    height: 50px;
+    margin-top: 60px;
+    padding: 80px 100px;
+    background-color: gray;
 
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.mid__info {
+    font-size: 18px;
+    width: 30%;
+    font-family: 'Fredoka One', cursive;
+}
+
+.sub_info {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button1 {
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    font-family: 'Righteous', cursive;
+}
+/* INFO CONTENT */
+
+/* INFO SECTION */
+
+/* INFO SECTION */
 
